@@ -18,6 +18,44 @@
   .post-list li { border-bottom: 1px solid #eee; padding: 12px 0; }
   .post-list a { color: #1a1a2e; text-decoration: none; font-size: 1.05em; }
   .post-list a:hover { color: #0066cc; }
+
+  /* POST META — autor + data */
+  .post-meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0 28px;
+    font-size: 0.82rem;
+    color: #888;
+  }
+  .post-meta .avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: var(--accent, #c47b5a);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.72rem;
+    flex-shrink: 0;
+  }
+  .post-meta .meta-info strong { color: #444; }
+  .post-meta .meta-info span { margin-left: 6px; }
+  /* INDEX card-meta */
+  .card-meta {
+    font-size: 0.72rem;
+    color: #aaa;
+    margin-top: 8px;
+  }
+  /* LIST meta inline */
+  .list-meta {
+    font-size: 0.75rem;
+    color: #999;
+    display: block;
+    margin-top: 2px;
+  }
 </style>
 </head>
 <body>
@@ -26,22 +64,22 @@
   <nav><a href="/">Início</a> <a href="/blog">Blog</a></nav>
 </header>
 <h1>MaxiOdonto</h1><p>Informações sobre odontologia, uniformes para dentistas e cuidados com a saúde bucal.</p>
-<h2>Artigos</h2><ul class="post-list"><li><a href="/jaleco-dentista-elastano-ergonomia.html">Jaleco para dentista com elastano: o detalhe que muda o atendimento</a></li>
-<li><a href="/jaleco-personalizado-fortaleca-a-marca-do-seu-consultorio.html">Jaleco Personalizado: Fortaleça a Marca do seu Consultório</a></li>
-<li><a href="/como-manter-o-jaleco-branco-sempre-impecavel.html">Como Manter o Jaleco Branco Sempre Impecável</a></li>
-<li><a href="/tecidos-ideais-para-jalecos-de-profissionais-de-saude.html">Tecidos Ideais para Jalecos de Profissionais de Saúde</a></li>
-<li><a href="/jalecos-femininos-tendencias-e-modelos-para-2026.html">Jalecos Femininos: Tendências e Modelos para 2026</a></li>
-<li><a href="/como-escolher-o-jaleco-ideal-para-dentistas.html">Como Escolher o Jaleco Ideal para Dentistas</a></li>
-<li><a href="/a-importancia-do-jaleco-profissional-na-area-de-saude.html">A Importância do Jaleco Profissional na Área de Saúde</a></li>
-<li><a href="/gestao-clinica-odontologica-imagem.html">Gestão de clínica odontológica: como profissionalizar sua imagem</a></li>
-<li><a href="/implante-dentario-guia-completo.html">Implante dentário: tudo o que você precisa saber antes de fazer</a></li>
-<li><a href="/consultorio-moderno-uniformes.html">Consultório odontológico moderno: uniformes que fazem diferença</a></li>
-<li><a href="/saude-bucal-profissionais-saude.html">Saúde bucal para profissionais de saúde: cuidados essenciais</a></li>
-<li><a href="/blog-maxiodonto.html">Blog</a></li>
-<li><a href="/uniformes-odontologia.html">Uniformes para Clínicas Odontológicas: Guia Completo para Montar sua Equipe</a></li>
-<li><a href="/jaleco-para-dentista.html">Jaleco para Dentista: Por que a Escolha Certa Muda Tudo no Consultório</a></li>
-<li><a href="/endodontia.html">Endodontia: o que é Tratamento de Canal e quando é Necessário</a></li>
-<li><a href="/veneers.html">Facetas Dentárias: o que São, Como Funcionam e Vale a Pena?</a></li></ul>
+<h2>Artigos</h2><ul class="post-list"><li><a href="/jaleco-dentista-elastano-ergonomia.html">Jaleco para dentista com elastano: o detalhe que muda o atendimento</a><span class="list-meta">Dra. Beatriz Carvalho · 15 de maio de 2026</span></li>
+<li><a href="/jaleco-personalizado-fortaleca-a-marca-do-seu-consultorio.html">Jaleco Personalizado: Fortaleça a Marca do seu Consultório</a><span class="list-meta">Dra. Beatriz Carvalho · 8 de maio de 2026</span></li>
+<li><a href="/como-manter-o-jaleco-branco-sempre-impecavel.html">Como Manter o Jaleco Branco Sempre Impecável</a><span class="list-meta">Dra. Beatriz Carvalho · 29 de abril de 2026</span></li>
+<li><a href="/tecidos-ideais-para-jalecos-de-profissionais-de-saude.html">Tecidos Ideais para Jalecos de Profissionais de Saúde</a><span class="list-meta">Dra. Beatriz Carvalho · 21 de abril de 2026</span></li>
+<li><a href="/jalecos-femininos-tendencias-e-modelos-para-2026.html">Jalecos Femininos: Tendências e Modelos para 2026</a><span class="list-meta">Dra. Beatriz Carvalho · 10 de abril de 2026</span></li>
+<li><a href="/como-escolher-o-jaleco-ideal-para-dentistas.html">Como Escolher o Jaleco Ideal para Dentistas</a><span class="list-meta">Dra. Beatriz Carvalho · 28 de março de 2026</span></li>
+<li><a href="/a-importancia-do-jaleco-profissional-na-area-de-saude.html">A Importância do Jaleco Profissional na Área de Saúde</a><span class="list-meta">Dra. Beatriz Carvalho · 15 de março de 2026</span></li>
+<li><a href="/gestao-clinica-odontologica-imagem.html">Gestão de clínica odontológica: como profissionalizar sua imagem</a><span class="list-meta">Dra. Beatriz Carvalho · 4 de março de 2026</span></li>
+<li><a href="/implante-dentario-guia-completo.html">Implante dentário: tudo o que você precisa saber antes de fazer</a><span class="list-meta">Dra. Beatriz Carvalho · 18 de fevereiro de 2026</span></li>
+<li><a href="/consultorio-moderno-uniformes.html">Consultório odontológico moderno: uniformes que fazem diferença</a><span class="list-meta">Dra. Beatriz Carvalho · 7 de fevereiro de 2026</span></li>
+<li><a href="/saude-bucal-profissionais-saude.html">Saúde bucal para profissionais de saúde: cuidados essenciais</a><span class="list-meta">Dra. Beatriz Carvalho · 24 de janeiro de 2026</span></li>
+<li><a href="/blog-maxiodonto.html">Blog</a><span class="list-meta">Dra. Beatriz Carvalho · 11 de janeiro de 2026</span></li>
+<li><a href="/uniformes-odontologia.html">Uniformes para Clínicas Odontológicas: Guia Completo para Montar sua Equipe</a><span class="list-meta">Dra. Beatriz Carvalho · 30 de dezembro de 2025</span></li>
+<li><a href="/jaleco-para-dentista.html">Jaleco para Dentista: Por que a Escolha Certa Muda Tudo no Consultório</a><span class="list-meta">Dra. Beatriz Carvalho · 14 de dezembro de 2025</span></li>
+<li><a href="/endodontia.html">Endodontia: o que é Tratamento de Canal e quando é Necessário</a><span class="list-meta">Dra. Beatriz Carvalho · 2 de dezembro de 2025</span></li>
+<li><a href="/veneers.html">Facetas Dentárias: o que São, Como Funcionam e Vale a Pena?</a><span class="list-meta">Dra. Beatriz Carvalho · 18 de novembro de 2025</span></li></ul>
 <footer>
   <p>&copy; 2026 MaxiOdonto. Todos os direitos reservados.</p>
 </footer>
